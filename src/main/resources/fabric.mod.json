@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "konoheads",
+  "version": "${version}",
+  "name": "Kono Heads",
+  "description": "Search the minecraft-heads.com database and spawn custom heads.",
+  "authors": ["rubymcminecraft"],
+  "contact": {
+    "homepage": "https://github.com/rubymcminecraft/konoheads",
+    "sources": "https://github.com/rubymcminecraft/konoheads"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.konohaven.heads.KonoHeads"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
