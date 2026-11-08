@@ -12,16 +12,6 @@ A small client-side Fabric mod for Minecraft **26.3** that lets you search the
 - **Left-click** a head to get it (creative: straight into your inventory; otherwise runs `/give`, which needs permission)
 - **Right-click** a head to copy its `/give` command
 
-## Setup
-
-Requires Fabric Loader 0.20+ and Fabric API for 26.3.
-
-1. Register an app on Minecraft-Heads.com to get an **App UUID**, then in game run `/heads appuuid <uuid>`.
-2. Optional: get an API key from your [API settings](https://minecraft-heads.com/settings/api) and run `/heads apikey <key>`.
-   Without a key you get the "Best Heads" set; a Silver or Gold license unlocks all heads.
-3. Run `/heads refresh` (or open the screen) to download the head list.
-
-Settings live in `config/konoheads.json`. **Do not share that file — it contains your API key.**
 
 ## API usage
 
